@@ -1,0 +1,319 @@
+@charset 'UTF-8' ;
+
+:root {
+  --f_fontSize : 16px ;
+  --f_fontSizeMax : 25px ;
+  --f_lineHeight : 1.5 ;
+  --f_fontStyle : normal ;
+  --f_fontWeight : 400 ;
+  --f_fontFamily: "Roboto", sans-serif;
+  --f_fontFamily2 : "OpenDyslexic", sans-serif;
+
+  /* Layout */
+  --l_maxWidth: 1512px;
+  --l_navbar : 5rem ;
+
+  /* Colors */
+  --c_white : #FFFFFF ;
+  --c_black : #000000 ;
+  --c_green900 : #1F392C ;
+  --c_grey100 : #F8F5F0 ;
+  --c_pink500 : #FF60E6 ;
+  --c_pink400 : #FFADF2 ;
+}
+
+/* Reset CSS */
+
+* {
+  margin : 0 ;
+  padding : 0;
+  border : 1px dotted blue ;
+}
+
+html {
+  font-size: var( --f_fontSize ) ;
+  line-height: var( --f_lineHeight ) ;
+  font-style : var( --f_fontStyle ) ;
+  font-weight : var( --f_fontWeight ) ;
+  font-family: var( --f_fontFamily );
+}
+
+button { all : unset ; }
+
+img {
+  max-width : 100% ;
+	max-inline-size : 100% ;
+	block-size : auto ;
+	height : auto ;
+	object-fit : cover ;
+	object-position : 50% 50% ;
+}
+
+/* Comienzo Body */
+.Body {
+  max-width: var( --l_maxWidth );
+  margin : 0 auto ;
+
+  font-size: clamp( 100% , 1rem + 0.75vw , var( --f_fontSizeMax ) ) ;
+  
+  color : var( --c_green900 );
+  background-color: var( --c_grey100 ) ;
+}
+
+
+/* Comienzo.Navbar */
+.Navbar {
+  height : var( --l_navbar );
+  width : 100% ;
+
+  top : 0 ;
+  position: sticky;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: var( --c_grey100 ) ;
+
+}
+
+.Navbar .logo {
+  display: inline-flex;
+  gap : 1rem ;
+
+  font-weight : calc( var( --f_fontWeight ) + 200 ) ) ;
+}
+
+.Navbar .logo__img {}
+
+.Navbar .menu {
+  display: flex;
+  gap : 1rem ;
+}
+
+.Navbar .menu .menu__item {
+  list-style-type: none;
+}
+
+.Navbar .menu .menu__item--link {
+  color : var( --c_green900 ) ;
+  text-decoration: none;
+}
+
+.Navbar .button {
+  padding : .5rem 2rem ;
+
+  border-radius: 3rem ;
+
+  font-size: 1rem ;
+  font-weight : calc( var( --f_fontWeight ) + 200 );
+
+  background-color: var( --c_pink500 ) ;
+}
+
+/* Comienzo Header */
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height : calc( 100vh - var( --l_navbar ) );
+
+}
+
+.Header .hero {}
+
+.Header .hero > * {
+  position: relative;
+}
+
+.Header .hero .picture {
+  position: absolute;
+  width : 100% ;
+}
+
+.Header .hero .picture .picture__img {
+  position: relative;
+  width : 100% ;
+}
+
+.Header .hero .hero__title {}
+
+.Header .hero .hero__content {}
+
+.Header .form {}
+
+
+/* Comienzo Aside */
+.Aside {}
+
+.Aside .section {}
+
+.Aside .section .article {}
+
+
+/* Comienzo Main */
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap : 4rem ;
+}
+
+/* Main > Partner Section  */
+.Main .section:first-child {
+  min-height : 70vh ;
+}
+
+/* Main > How to work - Section 1 */
+.Main .section:nth-child(2) {
+  min-height : 100vh ;
+}
+
+/* Main > How to work - Section 2 */
+.Main .section:nth-child(3) {
+  min-height : 70vh ;
+}
+
+/* Main > How to work - Section 3 */
+.Main .section:nth-child(4) {
+  min-height : 70vh ;
+
+  display: flex ;
+  flex-direction : row ;
+  align-items: center ;
+  justify-content: center ;
+}
+
+.Main .section:nth-child(4) .article {}
+
+.Main .section:nth-child(4) .article .container {
+
+  display: flex ;
+  flex-direction : row ;
+  align-items: flex-start ;
+  justify-content: center ;
+}
+.Main .section:nth-child(4) .article .container .content {
+  max-width: 42ch;
+}
+
+/* Review Section */
+.Main .section:nth-child(5) {
+  min-height : 100vh ;
+
+  display: flex ;
+  flex-direction : row ;
+  align-items: center ;
+  justify-content: center ;
+
+  background-color: red ;
+}
+
+.Main .section:nth-child(5) .article {}
+
+.Main .section:nth-child(5) .article .container {
+  display: flex ;
+  flex-direction : row ;
+  align-items: flex-start ;
+  justify-content: center ;
+}
+
+.Main .section:nth-child(5) .article .container .content {
+  max-width: 42ch;
+}
+
+.Main .section:last-child {
+  min-height : 70vh ;
+
+  display: flex ;
+  flex-direction : column ;
+  align-items: center ;
+  justify-content: center ;
+
+  background-color: green ;
+}
+
+.Main .section:last-child .article {
+  display: flex ;
+  flex-direction : row ;
+  align-items: center ;
+  justify-content: center ;
+}
+
+.Main .section:last-child .article .container {
+  height: 515px;
+  width: 580px;
+
+  display: inline-flex ;
+  flex-direction : column ;
+  align-items: start ;
+  justify-content: center ;
+
+  border-radius: 1rem;
+  background-color: var( --c_white ) ;
+}
+
+.Main .section:last-child .article .container .content {
+  max-width: 36ch;
+}
+
+/* Comienzo Footer */
+.Footer {
+  min-height : 70vh ;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.Footer .section {
+  width : 100% ;
+}
+
+.Footer .section:first-child .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+}
+
+.Footer .section:first-child .article .title {
+  display: inline-flex;
+  gap : 1rem ;
+}
+
+
+.Footer .section:last-child() .article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center ;
+}
+
+.Footer .section:last-child .article .menu {
+  display: flex;
+  flex-direction: row;
+  gap : 1rem ;
+}
+
+.Footer .section:last-child .article .menu .menu__item {
+  list-style-type: none;
+}
+
+.Footer .section:last-child .article .menu .menu__item .menu__item--link {
+  color : var( --c_green900 ) ;
+  text-decoration: none;
+}
