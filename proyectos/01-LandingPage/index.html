@@ -53,9 +53,11 @@
             Our team combines strategy, design, and technology to breathe life into your brand. Collaborate with us to leave lasting impression on your audience.
           </p>
         </div>
-        <form class="form" >
-          <input type="email" name="femail" value="femail">
-          <label for="femail">Join</label>
+        <form class="form" method="post" >
+          <fieldset>
+            <input type="email" name="femail" value="femail" placeholder="Enter your Email">
+            <label for="femail">Join</label>
+          </fieldset>
         </form>
       </header>
 
@@ -207,7 +209,11 @@
         </section>
         <section class="section">
           <article class="article">
-            <form></form>
+            <form method="post" >
+              <input type="email" placeholder="Enter your Email">
+              <!-- <input type="button" value="Join" > -->
+              <button type="submit">Join</button>
+            </form>
           </article>
         </section>
         <section class="section">

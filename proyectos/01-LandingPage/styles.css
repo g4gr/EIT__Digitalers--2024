@@ -23,24 +23,45 @@
 }
 
 /* Reset CSS */
+html {
+  font-size : var( --f_fontSize )
+}; 
 
 * {
   margin : 0 ;
-  padding : 0;
-  border : 1px dotted blue ;
+  padding : 0 ;
+  border : 1px dotted blue;
 }
 
-html {
-  font-size: var( --f_fontSize ) ;
-  line-height: var( --f_lineHeight ) ;
-  font-style : var( --f_fontStyle ) ;
-  font-weight : var( --f_fontWeight ) ;
-  font-family: var( --f_fontFamily );
+*, 
+*::before ,
+*::after {
+  box-sizing : border-box ;
 }
 
-button { all : unset ; }
+body {
+	margin : 0 auto ;
+	max-width : var( --l_maxWidth ) ;
+	min-height : 100dvh ;
+	font-size : clamp( 100% , 1rem + 0.75vw , var( --fontSizeMax ) ) ;
+}
 
-img {
+h1, h2, h3, h4, h5, h6 { text-wrap : balance ; }
+
+p {
+  text-wrap : pretty ;
+}
+
+button {
+  all : unset ;
+}
+
+button , input, textarea , select {
+  font : inherit ;
+}
+
+
+img , video , svg {
   max-width : 100% ;
 	max-inline-size : 100% ;
 	block-size : auto ;
@@ -48,6 +69,17 @@ img {
 	object-fit : cover ;
 	object-position : 50% 50% ;
 }
+
+@media ( prefers-reduce-motion : reduce ){
+	*, *::before , *::after {
+		animation-duration : 0.01 !important ;
+		animation-iteration-count : 1 !important ;
+		transition-duration : 0.01ms !important ;
+		scroll-behavior : auto !important ;
+		transition : none ;
+	}
+}
+
 
 /* Comienzo Body */
 .Body {
@@ -296,7 +328,7 @@ img {
 }
 
 
-.Footer .section:last-child() .article {
+.Footer .section:last-child .article {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
