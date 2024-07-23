@@ -1,0 +1,24 @@
+@mixin LayoutSectionArticle () {
+  .section {
+    width: 100%;
+
+    & .article {
+      width: inherit;
+
+      @content
+    }
+  }
+}
+
+
+
+@mixin Flexbox($Display: flex, $FlexFlow , $AlignItems: center, $JContent: center, $Gap: 0) {
+  display: $Display ;
+  flex-flow: $FlexFlow ;
+  align-items: $AlignItems ;
+  justify-content: $JContent;
+
+  @if $Gap {
+    gap: $Gap ;
+  }
+}

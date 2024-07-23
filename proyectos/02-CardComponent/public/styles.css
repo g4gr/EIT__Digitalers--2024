@@ -1,0 +1,97 @@
+html {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.Body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: clamp(100%, 1rem, 22px);
+  background-color: #ECECEC;
+}
+/* Comentario CSS : Comienzo Header */
+.Header {
+  background-color: yellow;
+}
+.Header .section {
+  width: 100%;
+}
+.Header .section .article {
+  width: inherit;
+}
+
+/* Comienzo Aside */
+.Aside {
+  background-color: blue;
+}
+.Aside .section {
+  width: 100%;
+}
+.Aside .section .article {
+  width: inherit;
+}
+
+.Main .section {
+  width: 100%;
+}
+.Main .section .article {
+  width: inherit;
+  display: grid;
+  grid: 500px/repeat(3, 1fr);
+  gap: 0;
+}
+.Main .section .article .card:nth-child(1n+1) {
+  padding: 1rem;
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  text-align: left;
+}
+.Main .section .article .card:nth-child(1n+1) .card__title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.Main .section .article .card:nth-child(1n+1) .card__description {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.Main .section .article .card:nth-child(1n+2) {
+  padding: 1rem;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  text-align: left;
+}
+.Main .section .article .card:nth-child(1n+2) .card__title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.Main .section .article .card:nth-child(1n+2) .card__description {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.Main .section .article .card:nth-child(1n+3) {
+  padding: 1rem;
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  text-align: left;
+}
+.Main .section .article .card:nth-child(1n+3) .card__title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.Main .section .article .card:nth-child(1n+3) .card__description {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.Footer {
+  background-color: green;
+}
+.Footer .section {
+  width: 100%;
+}
+.Footer .section .article {
+  width: inherit;
+}
+
+/*# sourceMappingURL=styles.css.map */

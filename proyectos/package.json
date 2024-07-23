@@ -1,0 +1,17 @@
+{
+  "name": "proyectos",
+  "version": "1.0.0",
+  "description": "EIT Digitales 2024 - Proyecto #2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "",
+  "license": "ISC"
+}

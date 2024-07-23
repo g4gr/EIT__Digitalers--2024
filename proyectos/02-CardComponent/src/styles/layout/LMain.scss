@@ -1,0 +1,17 @@
+@use '../grid.scss' as G;
+@use '../mixins.scss' as MX;
+@use '../helpers/colors' as C;
+@use '../components/_card' as Cd;
+
+.Main {
+
+  @include MX.LayoutSectionArticle {
+    @include G.Grid;
+
+    & .card {
+      @include Cd.card;
+    }
+
+
+  }
+}

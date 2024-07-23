@@ -1,0 +1,30 @@
+@use '../helpers/_colors' as C;
+
+$colors : C.$orange500 ,
+C.$cyan700 ,
+C.$cyan800 ;
+
+@mixin card() {
+  @for $i from 1 through 3 {
+
+    &:nth-child(1n + #{$i}) {
+      padding: 1rem;
+
+      background-color: nth($colors, $i);
+
+      color: white;
+      text-align: left;
+
+
+      & .card__title {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      & .card__description {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+  }
+}

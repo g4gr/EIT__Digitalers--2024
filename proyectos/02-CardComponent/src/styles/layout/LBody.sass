@@ -1,0 +1,15 @@
+@use 'sass:map'
+
+@use '../grid.scss' as G
+@use '../helpers/_colors.scss' as C
+
+
+.Body
+    max-width : map.get( G.$breakpoints , 'max' )
+    margin : 0 auto
+
+    font-size : clamp( 100% , 1rem , 22px )
+
+    background-color : C.$BK_Body
+
+    @import '../grid.scss'

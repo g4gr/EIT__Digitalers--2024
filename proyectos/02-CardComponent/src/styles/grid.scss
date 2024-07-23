@@ -1,0 +1,26 @@
+@use 'sass:map';
+
+$Grid_Rows : 500px;
+$Grid_Columns : 3;
+
+// Breackpoints
+$breakpoints : ('mobile' : 0px,
+  'tablet' : 600px,
+  'desktop' : 1024px,
+  'max' : 1440px); // ---- Grid ----
+
+@mixin Grid ($Gap : 0) {
+  display: grid;
+  grid: $Grid_Rows / repeat($Grid_Columns , 1fr);
+
+  @if $Gap {
+    gap: $Gap ;
+  }
+}
+
+
+@each $name, $value in $breakpoints {
+  @media screen and (min-width: $value) {
+    .Body {}
+  }
+}

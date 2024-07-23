@@ -1,0 +1,9 @@
+@use '../mixins.scss' as MX;
+@use '../helpers/colors' as C;
+
+
+.Footer {
+  @include MX.LayoutSectionArticle;
+
+  background-color: C.$BK_Footer ;
+}
