@@ -10,7 +10,8 @@
 // TODO: 
 // 1. Crear una clase que contenta el modelo inicial de la tareas.
 // 1.A. Debe tener : Fecha, Contenido, Prioridad.
-
+// 2. Si a la tarea le falta uno de los dos items (la tarea y/o la fecha) debe mostrar un error.
+// 3. Ordene las tareas por fecha descendente o de forma ascendente.
 
 // --- Editar ---
 // TODO:
@@ -20,9 +21,33 @@
 // 4. Seleccionar la tarea.
 
 // Esperar a que el DOM esté completamente cargado
+const BtnAddTask = document.getElementById('js-AddTask');;
+const BtnEditTask = document.getElementById('js-EditTask');
+const BtnDeleteTask = document.getElementById('js-DeleteTask');
+const TaskList = document.getElementById('task-list'); // <ul ></ul>
+
 
 // Función para agregar una tarea
 function addTask() {
+  //let list = {};
+  const Task = document.getElementById('js-Task'); // <input type="text" id="js-Task" name="task" placeholder="Escribe tu tarea aquí">
+  const Date = document.getElementById('js-Date');
+
+  let taskValue = Task.value;
+  let taskDate = Date.value;
+
+
+  if (taskValue == '' || taskDate == '') {
+    alert('La informacion esta incompleta. Por favor, ingresa la tarea o la fecha');
+
+  } else {
+    let node = document.createElement('li');
+    let textNode = document.createTextNode(`${taskValue} - Fecha : ${taskDate}`);
+    node.appendChild(textNode);
+    TaskList.appendChild(node);
+
+    alert('Tarea agregada con exito');
+  }
 }
 
 // Función para seleccionar una tarea

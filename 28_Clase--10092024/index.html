@@ -61,16 +61,16 @@
           <h3 class="title">Tareas</h3>
           <div class="task-form">
             <label for="task">Que quiere hacer hoy ?</label>
-            <input type="text" id="task" name="task" placeholder="Escribe tu tarea aquí">
+            <input type="text" id="js-Task" name="task" placeholder="Escribe tu tarea aquí">
 
             <label for="date">Fecha de vencimiento:</label>
-            <input type="date" id="date" name="date">
+            <input type="date" id="js-Date" name="date">
           </div>
 
           <div class="actions">
-            <button class="add-task">Agregar tarea</button>
-            <button class="edit-task">Editar tarea</button>
-            <button class="delete-task">Eliminar tarea</button>
+            <button class="add-task" id='js-AddTask' onclick="addTask()">Agregar tarea</button>
+            <button class="edit-task" id='js-EditTask' onclick="editTask()">Editar tarea</button>
+            <button class="delete-task" id='js-DeleteTask' onclick="deleteTask()">Eliminar tarea</button>
           </div>
         </header>
       </article>
