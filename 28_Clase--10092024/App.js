@@ -44,15 +44,37 @@ function addTask() {
     let node = document.createElement('li');
     let textNode = document.createTextNode(`${taskValue} - Fecha : ${taskDate}`);
     node.appendChild(textNode);
+    node.classList.add('TaskList__item');
+    node.setAttribute('tabindex', '1');
     TaskList.appendChild(node);
 
+    let nodeInput = document.createElement('input');
+    nodeInput.type = 'radio';
+    nodeInput.setAttribute('name', 'taskItem');
+    node.appendChild(nodeInput);
+
+
     alert('Tarea agregada con exito');
+    console.log('Se agrego una tarea')
   }
 }
 
 // Función para seleccionar una tarea
-function selectTask(taskItem) {
+function selectTask() {
+  let taskItems = document.getElementsByName('taskItem');
+
+  taskItems.forEach((item) => {
+    item.addEventListener('click', () => {
+      if (item.checked == true) {
+        console.log(item);
+      }
+    })
+  })
+
+
+
 }
+
 
 // Función para editar una tarea
 function editTask() {
@@ -60,5 +82,6 @@ function editTask() {
 
 // Función para eliminar una tarea
 function deleteTask() {
+  let tareaAEliminar = document.getElementById('');
 }
 

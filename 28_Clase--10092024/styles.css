@@ -50,6 +50,10 @@ a {
   text-decoration: none;
 }
 
+form>* {
+  all: unset;
+}
+
 
 /* --- Body --- */
 .Body {
@@ -57,8 +61,8 @@ a {
   margin: 0 auto;
 
   display: grid;
-  grid: 128px 80vh 1fr / repeat(12, 1fr);
-  grid-gap: 0;
+  grid: 128px 30vh 70vh 1fr / repeat(12, 1fr);
+  grid-gap: 1rem;
 
   font-size: clamp(100%, .75rem + 1.5vw, 25px);
   font-weight: var(--f_fontWeigth);
@@ -72,11 +76,10 @@ a {
 /* --- Header --- */
 .Header {
   grid-row: 1 / 2;
-  grid-column: 1 / 13;
+  grid-column: 2 / 12;
 
   & .Navbar {
     height: 100%;
-    margin-inline: 1rem;
 
     display: flex;
     flex-flow: row wrap;
@@ -84,12 +87,16 @@ a {
     justify-content: space-between;
 
     & .logo {
+      display: inline-flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      place-content: center;
+      gap: 1rem;
 
       & .logo__img {}
     }
 
     & .Menu {
-      width: 25%;
 
       display: flex;
       flex-flow: row wrap;
@@ -125,14 +132,36 @@ a {
 /* --- Aside --- */
 .Aside {
   grid-row: 2 / 3;
-  grid-column: 1 / 4;
+  grid-column: 2 / 12;
+
+  border-radius: 1rem;
+  background-color: var(--c_white);
 
   & .section {
+    height: 100%;
 
     & .article {
+      height: inherit;
 
       & .title {
         font-weight: calc(var(--f_fontWeigth) - 300);
+      }
+
+      & .task-form {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        & fieldset {
+
+          & input {
+            line-height: calc(var(--c_lineHeight) * 2);
+            border: 1px solid red;
+            border-radius: 1rem;
+          }
+        }
       }
     }
   }
@@ -140,44 +169,74 @@ a {
 
 /* --- Main --- */
 .Main {
+  grid-row: 3 / 4;
+  grid-column: 2 / 12;
 
-  /* Estilos del formulario */
-  .task-form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
-  }
+  & .section {
 
-  .task-form input {
-    padding: 0.5em;
-    margin: 0.5em 0;
-  }
+    & .article {
 
-  /* Botones de acciones */
-  .actions button {
-    padding: 0.5em 1em;
-    margin-right: 1em;
-    border: none;
-    color: white;
-    cursor: pointer;
-  }
+      & .TaskList {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: left;
+        justify-content: center;
+        gap: 1rem;
 
-  .add-task {
-    background-color: #28a745;
-  }
+        & .TaskList__item {
+          display: inline-flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: space-between;
 
-  .edit-task {
-    background-color: #007bff;
-  }
+          border: 1px solid green;
+          border-radius: 1rem;
+          padding: 1rem;
 
-  .delete-task {
-    background-color: #dc3545;
+        }
+      }
+    }
   }
+}
+
+/* Estilos del formulario */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.task-form input {
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+
+/* Botones de acciones */
+.actions button {
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.add-task {
+  background-color: #28a745;
+}
+
+.edit-task {
+  background-color: #007bff;
+}
+
+.delete-task {
+  background-color: #dc3545;
+}
 }
 
 /* --- Footer --- */
 .Footer {
-  grid-row: 3/4;
+  grid-row: 4 / 5;
   grid-column: 1 /13;
 
   & .section {

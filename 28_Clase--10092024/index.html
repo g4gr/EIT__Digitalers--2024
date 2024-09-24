@@ -24,6 +24,7 @@
     <nav class="Navbar">
       <figure class="logo" height="64px" width="64px">
         <img class="logo__img" height="48px" width="48px" src="./assets/Logo.svg" alt="Logo">
+        <figcaption>Mis tareas</figcaption>
       </figure>
       <menu class="Menu">
         <li class="Menu__item">
@@ -58,21 +59,26 @@
     <section class="section">
       <article class="article">
         <header class="header">
-          <h3 class="title">Tareas</h3>
-          <div class="task-form">
-            <label for="task">Que quiere hacer hoy ?</label>
-            <input type="text" id="js-Task" name="task" placeholder="Escribe tu tarea aquí">
-
-            <label for="date">Fecha de vencimiento:</label>
-            <input type="date" id="js-Date" name="date">
-          </div>
-
-          <div class="actions">
-            <button class="add-task" id='js-AddTask' onclick="addTask()">Agregar tarea</button>
-            <button class="edit-task" id='js-EditTask' onclick="editTask()">Editar tarea</button>
-            <button class="delete-task" id='js-DeleteTask' onclick="deleteTask()">Eliminar tarea</button>
-          </div>
+          <form class="task-form">
+            <fieldset>
+              <label for="task"></label>
+              <input type="text" id="js-Task" name="task" placeholder="Escribe tu tarea aquí">
+            </fieldset>
+            <fieldset>
+              <label for="date"></label>
+              <input type="date" id="js-Date" name="date">
+            </fieldset>
+          </form>
         </header>
+        <footer>
+          <div class="actions">
+            <button class="add-task" id='js-AddTask' onclick="addTask()">Agregar</button>
+            <!-- INFO: Agregar los botones por separado, en cada tarea. 
+              <button class="edit-task" id='js-EditTask' onclick="editTask()">Editar</button>
+            <button class="delete-task" id='js-DeleteTask' onclick="deleteTask()">Eliminar</button>
+          -->
+          </div>
+        </footer>
       </article>
     </section>
   </aside>
@@ -81,7 +87,7 @@
   <main class="Main">
     <section class="section">
       <article class="article">
-        <ul id="task-list">
+        <ul id="task-list" class="TaskList">
           <!-- Aquí se mostrarán las tareas -->
         </ul>
       </article>
