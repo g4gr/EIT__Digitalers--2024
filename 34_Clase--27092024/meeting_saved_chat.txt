@@ -1,0 +1,334 @@
+18:55:56 De Instructor :: Gaby a Rocio Facchiano :: Educacion IT(mensaje directo):
+	Hola Ro, buenas tarde!	Espero estes de 10 !
+18:56:07 De Instructor :: Gaby a Rocio Facchiano :: Educacion IT(mensaje directo):
+	Muchas gracias de antemano por el soporte en la clase de hoy !
+18:57:22 De Rocio Facchiano :: Educacion IT a Instructor :: Gaby(mensaje directo):
+	hola! de nada :)
+19:07:10 De Leandro Lucas Gonzalez-1000178 a Todos:
+	Buenass profe
+19:07:15 De Maximo Ismael Gasparini-999694 a Todos:
+	hola buenaas
+19:07:16 De Matias Ivan Gonzalez Vidal-1001517 a Todos:
+	hola buenas
+19:07:19 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	hola buenas
+19:07:29 De Javier Valentin Perez-1003665 a Todos:
+	hola profe
+19:07:41 De Maximo Ismael Gasparini-999694 a Todos:
+	todo bien, esperando que termina la semanaa
+19:08:07 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	todo bien, hice algo con la tarea, me falta algo todavia
+19:09:26 De Georgina Estefania Zamboni-1000996 a Todos:
+	buenas
+19:09:33 De Maximo Ismael Gasparini-999694 a Todos:
+	dale profe
+19:09:39 De Georgina Estefania Zamboni-1000996 a Todos:
+	aviso lucas que mando su solucion
+19:09:41 De Leandro Lucas Gonzalez-1000178 a Todos:
+	ok profe
+19:09:43 De Georgina Estefania Zamboni-1000996 a Todos:
+	hizo el pr
+19:09:52 De Georgina Estefania Zamboni-1000996 a Todos:
+	lucas
+19:10:29 De Rocio Facchiano :: Educacion IT a Instructor :: Gaby(mensaje directo):
+	profe, la grabación!
+19:10:30 De Javier Valentin Perez-1003665 a Todos:
+	hay playas por ahí?
+19:11:14 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	estamos viendo el vs profe
+19:11:18 De Maximo Ismael Gasparini-999694 a Todos:
+	suena lindo igual
+19:12:12 De Maximo Ismael Gasparini-999694 a Todos:
+	como va a aprovechar el finde ahí?
+19:15:26 De Instructor :: Gaby a Todos:
+	git clone https://github.com/LUKSROB/AlumniDigitalers.git
+19:20:49 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	me equivoque creo, el addTask() no lo toque io
+19:27:39 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	gracias
+19:27:51 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	yo profe ya casi lo tengo
+19:27:55 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	el de edit
+19:28:02 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	lo termino y lo paso
+19:28:19 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	nono es mio
+19:28:26 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	q grande
+19:28:34 De Georgina Estefania Zamboni-1000996 a Todos:
+	yo lo baje el repo pero estoy a full con el proyecto que les conte y no hicee tiempo de revisarlo
+19:28:46 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	lo estoy terminando yo
+19:28:53 De Georgina Estefania Zamboni-1000996 a Todos:
+	con las conexiones al back
+19:28:59 De Georgina Estefania Zamboni-1000996 a Todos:
+	un dolor de cabeza jajaj
+19:29:25 De Georgina Estefania Zamboni-1000996 a Todos:
+	como me falta la teoria me cuesta mucho mas pero va
+19:29:49 De Georgina Estefania Zamboni-1000996 a Todos:
+	por suerte el mentor explica mucho
+19:29:57 De Georgina Estefania Zamboni-1000996 a Todos:
+	en el back node y mongo
+19:30:33 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	fs es útil si
+19:31:45 De Georgina Estefania Zamboni-1000996 a Todos:
+	atlas
+19:32:29 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	function pedirFecha() {	    let fecha;	    const regexFecha = /^\d{4}-\d{2}-\d{2}$/;	    do {	        fecha = prompt("Ingresa una fecha en el formato YYYY-MM-DD:");	    } while (!regexFecha.test(fecha));	    return fecha	}					// Función para seleccionar una tarea	function selectTask() {	    let taskItems = document.getElementsByName('taskItem');	    taskItems.forEach((item) => {	        if (item.checked == true) {	            let editText = prompt('Ingresa la tarea modificada')	            let editDate = pedirFecha();	            if (editText && editDate) {	                item.parentElement.textContent = `${editText} - Fecha: ${editDate}`	            }	        }	    })			}		TaskList.addEventListener('click', () => {	    selectTask()	})
+19:32:49 De Georgina Estefania Zamboni-1000996 a Todos:
+	y en el front vite y react, yo habia trabajado en otro proyecto con next y react y cambia bastante asi que con eso tambien aprendiendo a las patadas y sobre la marcha
+19:33:39 De Georgina Estefania Zamboni-1000996 a Todos:
+	lo bueno que con esta practica cuando veamos aca react voy a entender mejor
+19:33:54 De Georgina Estefania Zamboni-1000996 a Todos:
+	me resulto mas comodo next para el enrutado mas simple
+19:34:31 De Georgina Estefania Zamboni-1000996 a Todos:
+	claro mas simple
+19:34:35 De Georgina Estefania Zamboni-1000996 a Todos:
+	no le eras
+19:34:39 De Georgina Estefania Zamboni-1000996 a Todos:
+	erras
+19:35:39 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	profe, con respecto al GitHub: No pude clonar el repo porque tiene una carpeta o archivo llamado "\"
+19:36:37 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	el profe de viaje
+19:36:40 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	que barbaro
+19:36:42 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	dkjhdajskdas
+19:36:46 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	profe, me confundi e hice el editTask dentro del selectTask, igual funciona
+19:38:26 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	si le puse un listenert porque no había botón de edit
+19:39:12 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	eso es para que cuando editemos la tarea podamos agragar fecha en formato
+19:39:37 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	se invoca dentro de selectTask
+19:39:42 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	sisi
+19:40:30 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	para las regex usa la ia, no lo había entendido muy bien
+19:42:55 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	linea 81 dic
+19:48:39 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	sisi,
+19:49:30 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	el profe sabe cosas
+19:50:05 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	la tarea tiene que tener fecha si o si, o no se hace
+19:50:06 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	ajjaja
+19:52:49 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	yo creo que se puede mejorar pero recién lo termine asi que...
+19:52:57 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	no se
+19:53:20 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	ok
+19:53:24 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	geo
+19:53:29 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	sabe cosas tambien
+19:53:34 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	dea no mentira era broma
+19:53:35 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	jsjsjjs
+19:53:35 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	dkjsdhfdkajsdfhjskajdas
+19:53:39 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	mentira
+19:53:40 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	fnksdfasa
+19:53:45 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	era broma
+19:53:51 De Georgina Estefania Zamboni-1000996 a Todos:
+	pero ya dije que no lo pude revisar jaj
+19:53:57 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	traidores entre nosotros
+19:53:59 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	fio io pero
+19:54:03 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	perdón geo
+19:54:07 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	:(((((((((((((
+19:54:20 De Georgina Estefania Zamboni-1000996 a Todos:
+	que malo y yo que avise lo que mandaste jajaj
+19:54:25 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	ajjajaj
+19:54:28 De Georgina Estefania Zamboni-1000996 a Todos:
+	que mal compañero jajajajja
+19:54:38 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	sjkhdfsjkfdahkjfsdahjofladjgfoesuifdpsedrlutgewlfjrlgvjmefjdfgewjmfdoerjghoerjfopekhlfggksdf,dfhjmlrffjweoigjrgogmedlkfjhdfighjhefkfjfkhdjfgffghjgiojdrfw
+19:54:55 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	a
+19:54:56 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	ajjajajaj
+19:55:42 De Georgina Estefania Zamboni-1000996 a Todos:
+	hablando en serio no me molesta siempre participo mucho en clase pero hoy justo estoy fuera de sintonia jaj la cabeza quemada mal
+19:55:55 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	Reacted to "hablando en serio no..." with 😞
+20:03:53 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	<input type="checkbox">??
+20:04:01 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	shjhsajhsajkdahsjkas
+20:04:03 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	ashhh
+20:05:42 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	tudo bem
+20:13:45 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	ueno yo pienso en 27 :)
+20:13:55 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	27 perosnas
+20:17:53 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	id : ' '
+20:18:26 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	me dio ansiedad
+20:20:01 De Leandro Lucas Gonzalez-1000178 a Todos:
+	ctrl + f
+20:23:16 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	que grande copilot
+20:23:18 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	jsakjdd
+20:29:32 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	nunca pida perdón por sus perritos
+20:29:35 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	>:(
+20:30:01 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	igual sean o no suyos
+20:30:06 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	igual sea o no copilot
+20:30:08 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	que grande
+20:30:10 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	ah
+20:30:15 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	sierve
+20:30:24 De Leandro Lucas Gonzalez-1000178 a Todos:
+	tiene el de pago profe..??
+20:31:05 De Leandro Lucas Gonzalez-1000178 a Todos:
+	🧉😎
+20:31:15 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	yo mande una constancia de alumno regular a GitHub para que me de el copilot gratis personal y me lo dieron 🙂 recomendado
+20:31:42 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	hijole
+20:31:52 De Leandro Lucas Gonzalez-1000178 a Todos:
+	buena data esa
+20:31:58 De Instructor :: Gaby a Todos:
+	GitHub Student Developer Pack
+20:32:18 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	Replying to "GitHub Student Devel..."
+	
+	eso creo que era, re sirve esa porqueria
+20:32:22 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	Replying to "GitHub Student Devel..."
+	
+	ah ksahdjas
+20:32:31 De Instructor :: Gaby a Todos:
+	Replying to "GitHub Student Devel..."
+	
+	GitHub Student Developer Pack - GitHub Education
+20:33:21 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	ueno gracias
+20:42:07 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	se entendio
+20:42:15 De Leandro Lucas Gonzalez-1000178 a Todos:
+	se entiende
+20:42:32 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	uno breve de 2 horitas
+20:42:37 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	no mentira yo toy bien
+20:42:49 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	yo no hablo por mis panas
+20:42:51 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	jkfsdf
+20:42:52 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	un recreíto y volvemos
+20:43:03 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	gracias
+20:43:07 De Instructor :: Gaby a Todos:
+	Volvemos a las 21 hs.
+21:01:03 De Instructor :: Gaby a Todos:
+	Volvemos?
+21:17:24 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	igual profe
+21:17:32 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	yo decía hacer dos else if separados
+21:17:42 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	para tomas en caso de que no tiene date
+21:17:46 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	tome el anterior
+21:17:59 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	y en caso de que tome la tarea tome la tarea anterior
+21:18:41 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	ah ya
+21:18:51 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	Isis me había perdido creo
+21:30:23 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	taskManager.addTask()
+21:33:46 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	modifique lo q quiera
+21:33:54 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	jhsdjkas
+21:33:56 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	una pr
+21:34:05 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	mesi gracias
+21:37:32 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	Replying to "taskManager.addTask(..."
+	
+	.
+21:44:24 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	onclick="TaskManager.addTask()"
+22:02:39 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	this.taskValue = this.taskInput.value
+22:11:19 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	https://github.com/LUKSROB/AlumniDigitalers
+22:13:43 De Georgina Estefania Zamboni-1000996 a Todos:
+	subiste los cambios al repo de el forzandolo con el fork?
+22:14:02 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	ahora esta haciendo una pr para pedir que agregue
+22:14:41 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	listo
+22:18:15 De Georgina Estefania Zamboni-1000996 a Todos:
+	ahh ok ok entonces esto seria un atajo para este caso que trabajaste sin haber hecho primero el clonado, ser colaborador y hacer una rama aparte, como primero trabajaste esto es un atajo para remediar eso digamos
+22:19:44 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	y ya hice merge
+22:19:49 De Georgina Estefania Zamboni-1000996 a Todos:
+	genial si si esa parte del pr y el merge la tengo clara
+22:19:56 De Georgina Estefania Zamboni-1000996 a Todos:
+	genial saberlo esto
+22:20:30 De Georgina Estefania Zamboni-1000996 a Todos:
+	y no sabia del comando cat muy bueno tambien
+22:21:05 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	mesi
+22:21:12 De Leandro Lucas Gonzalez-1000178 a Todos:
+	mkdir
+22:21:18 De Leandro Lucas Gonzalez-1000178 a Todos:
+	crear carpetas
+22:21:26 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	gracias profe
+22:21:38 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	iba a hacer eso tmbn
+22:21:43 De Leandro Lucas Gonzalez-1000178 a Todos:
+	gracias profe muy buena clase
+22:21:47 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	tratar de arreglarlo
+22:21:55 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	god
+22:22:06 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	djkaskjakjdad
+22:22:13 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	un gusto
+22:22:13 De Maximo Ismael Gasparini-999694 a Todos:
+	muchas gracias, que tenga buen finde
+22:22:15 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	bueno profe, gracias, nos vemos
+22:22:19 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	no me dijo hola :(((((
+22:22:21 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	dea
+22:22:21 De Leandro Lucas Gonzalez-1000178 a Todos:
+	nos vemos
+22:22:24 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	nos vemos
+22:22:37 De Georgina Estefania Zamboni-1000996 a Todos:
+	buen finde
