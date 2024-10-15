@@ -1,0 +1,296 @@
+19:06:40 De Maximo Ismael Gasparini-999694 a Todos:
+	hola buenas tardes profee, como anda usted?
+19:06:51 De Esteban Daniel Miguel-1003687 a Todos:
+	Buenas tardes profe, estuve ausente en las ultimas dos clases espero no haberme perdido de mucho. Este finde me toca ponerme al dia
+19:06:51 De Mauricio Nicolas Schefer-1003127 a Todos:
+	Hola profe
+19:07:11 De Karen Evelin Aguero-1001751 a Todos:
+	Buenas tardes profe
+19:09:09 De Agustina Maria Jose Ugarte-1003073 a Todos:
+	yo me quede en el 20 masomenos
+19:09:19 De Tobias Valentin Linares-1003728 a Todos:
+	Yo estoy a 2 exámenes de terminar javascript
+19:09:31 De Tobias Valentin Linares-1003728 a Todos:
+	Wujuuu
+19:09:35 De Esteban Daniel Miguel-1003687 a Todos:
+	yo voy atrasado con eso pero puedo hacerlas, voy por el 22
+19:09:52 De Juan Martin Ruiz Ingrassia-1001998 a Todos:
+	Hola voy por la 22 tambien
+19:09:55 De Instructor :: Gaby a Todos:
+	Reacted to "Yo estoy a 2 exámene..." with 💙
+19:10:04 De Leandro Lucas Gonzalez-1000178 a Todos:
+	yo también profe me pongo al dia este finde en completar nomas
+19:10:04 De Esteban Daniel Miguel-1003687 a Todos:
+	si si, las hago sin falta
+19:10:25 De Karen Evelin Aguero-1001751 a Todos:
+	Yo voy por la 27 profe, hasta el lunes me pongo al día
+19:10:26 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	yo termine todo ya
+19:10:30 De Instructor :: Gaby a Todos:
+	Reacted to "Yo voy por la 27 pro..." with 👍
+19:10:53 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	sisi
+19:11:09 De Mauricio Nicolas Schefer-1003127 a Todos:
+	Se viene speedrun de react
+19:11:14 De Leandro Lucas Gonzalez-1000178 a Todos:
+	👍🏻
+19:11:18 De Instructor :: Gaby a Todos:
+	Reacted to "Se viene speedrun de..." with 🖖
+19:13:09 De Tobias Valentin Linares-1003728 a Todos:
+	Yo todo bien no me opongo
+19:13:22 De Karen Evelin Aguero-1001751 a Todos:
+	Yo no tengo drama profe, lo que usted decida estoy de acuerdo
+19:13:30 De Tobias Valentin Linares-1003728 a Todos:
+	Encima la parte más linda más clases juju
+19:13:50 De Esteban Daniel Miguel-1003687 a Todos:
+	yo no tendría problema en cuanto no sea jueves
+19:13:53 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	podría mandarlo por chat?
+19:14:14 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	la fecha y lo que es
+19:16:25 De Tobias Valentin Linares-1003728 a Todos:
+	Sii
+19:16:26 De Maximo Ismael Gasparini-999694 a Todos:
+	sip, hasta ahora se entendio
+19:16:27 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	sisi
+19:16:28 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	y una consulta mas, depues de eso, no vamos a tener mas acceso al alumni no?
+19:16:30 De Leandro Lucas Gonzalez-1000178 a Todos:
+	siii
+19:16:47 De Maximo Ismael Gasparini-999694 a Todos:
+	ahh estaría bueno seguir teniendo acceso
+19:17:18 De Tobias Valentin Linares-1003728 a Todos:
+	Wujuuu
+19:17:23 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	ok muchas gracias
+19:17:29 De Leandro Lucas Gonzalez-1000178 a Todos:
+	gracias
+19:17:38 De Tobias Valentin Linares-1003728 a Todos:
+	El otro día estaba pensando en lo pesadisima que debe ser la base de datos en la que cargan los videos de las clases
+19:17:43 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	nop
+19:17:49 De Instructor :: Gaby a Todos:
+	Reacted to "El otro día estaba p..." with 😂
+19:18:00 De Tobias Valentin Linares-1003728 a Todos:
+	Nono, solo digo que deben ser gigas y gigas de video o no?
+19:18:06 De Tobias Valentin Linares-1003728 a Todos:
+	Me preguntaba donde están almacenados
+19:18:08 De Tobias Valentin Linares-1003728 a Todos:
+	Jajajajjajaa
+19:18:22 De Leandro Lucas Gonzalez-1000178 a Todos:
+	telecom tiene hectáreas de servidores
+19:18:31 De Leandro Lucas Gonzalez-1000178 a Todos:
+	😅
+19:18:39 De Tobias Valentin Linares-1003728 a Todos:
+	Pienso que debe ser más en la nube la onda
+19:18:50 De Matias Tomas Gamez Candelas-1001397 a Todos:
+	lo único malo de la parte de react es que no hay videos explicativos
+19:19:25 De Tobias Valentin Linares-1003728 a Todos:
+	Que tal Colombia profe me olvide de preguntarle
+19:19:28 De Tobias Valentin Linares-1003728 a Todos:
+	Colombia era no?
+19:21:29 De Paula Romero :: Educación IT a Instructor :: Gaby(mensaje directo):
+	Gaby recordá grabar porfis
+19:21:35 De Leandro Lucas Gonzalez-1000178 a Todos:
+	amazon S3
+19:21:41 De Leandro Lucas Gonzalez-1000178 a Todos:
+	dice que usa de cdn
+19:22:01 De Leandro Lucas Gonzalez-1000178 a Todos:
+	amazon cloudfornt
+19:22:12 De Tobias Valentin Linares-1003728 a Todos:
+	Por esooo
+19:22:18 De Leandro Lucas Gonzalez-1000178 a Todos:
+	se puede analizar con wapalizer
+19:22:25 De Leandro Lucas Gonzalez-1000178 a Todos:
+	de que esta hecho la pagina
+19:23:08 De Mauricio Nicolas Schefer-1003127 a Todos:
+	regalado
+19:23:33 De Tobias Valentin Linares-1003728 a Todos:
+	Ah no espectacular
+19:24:29 De Tobias Valentin Linares-1003728 a Todos:
+	Re safa el servicio ese
+19:36:55 De Maximo Ismael Gasparini-999694 a Todos:
+	todo bien
+19:38:53 De Tobias Valentin Linares-1003728 a Todos:
+	Podemos revisar la parte del código que hace saltar esa alerta?
+19:38:53 De Mauricio Nicolas Schefer-1003127 a Todos:
+	Puede volver a cargar una tarea?
+19:42:44 De Tobias Valentin Linares-1003728 a Todos:
+	Es como q nunca alcanza a leer los inputs
+19:49:16 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	uenas
+19:49:20 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	perodn lña hora
+19:49:22 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	:(
+19:50:34 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	que busca?
+20:00:41 De Maximo Ismael Gasparini-999694 a Todos:
+	sip, no hay problema profe
+20:00:51 De Tobias Valentin Linares-1003728 a Todos:
+	No pasa nada profe yo todavía estoy viendo que podemos hacer
+20:00:54 De Tobias Valentin Linares-1003728 a Todos:
+	Quede regulando
+20:04:22 De Tobias Valentin Linares-1003728 a Todos:
+	increíble la debugeada que pegaste pero no se que aportar
+20:04:34 De Leandro Lucas Gonzalez-1000178 a Todos:
+	porque limpia..??
+20:05:22 De Leandro Lucas Gonzalez-1000178 a Todos:
+	ahh eso hace la función render por dentro..??
+20:05:46 De Leandro Lucas Gonzalez-1000178 a Todos:
+	ahí entendi
+20:05:50 De Leandro Lucas Gonzalez-1000178 a Todos:
+	pensé que habíamos escrito
+20:06:10 De Tobias Valentin Linares-1003728 a Todos:
+	entonces vamos a render a solucionar el tema no?
+20:09:37 De Tobias Valentin Linares-1003728 a Todos:
+	entonces todo sucedía por this.container.innerhtml
+20:09:40 De Tobias Valentin Linares-1003728 a Todos:
+	cuyo valor es ""
+20:09:46 De Mauricio Nicolas Schefer-1003127 a Todos:
+	Me parece que el problema esta en el foreach o lo que entra a el, estoy pensado si se puede sacar
+20:09:53 De Tobias Valentin Linares-1003728 a Todos:
+	y si cambiamos su valor por this.innerhtml?
+20:10:36 De Tobias Valentin Linares-1003728 a Todos:
+	Claro pero el eender limpia todo
+20:10:44 De Tobias Valentin Linares-1003728 a Todos:
+	Osea no importa que lleves el render limpia todo
+20:16:26 De Mauricio Nicolas Schefer-1003127 a Todos:
+	capaz que con unshift funcione
+20:16:46 De Mauricio Nicolas Schefer-1003127 a Todos:
+	después solo leemos el primero y es mas fácil
+20:19:11 De Tobias Valentin Linares-1003728 a Todos:
+	te juro q no me quede en blanco jaja
+20:20:00 De Leandro Lucas Gonzalez-1000178 a Todos:
+	tenemos que lograr que cuando pinte de nuevo no agregue los anteriores
+20:20:07 De Mauricio Nicolas Schefer-1003127 a Todos:
+	Yo creo que si entendí, solo hay que ir leyendo el ultimo elemento y agregarlo
+20:20:07 De Leandro Lucas Gonzalez-1000178 a Todos:
+	o no..??
+20:20:50 De Tobias Valentin Linares-1003728 a Todos:
+	Claro con que pinte el último li ya esta
+20:22:16 De Tobias Valentin Linares-1003728 a Todos:
+	Y tipo un addeventlistener? O algo de eso?
+20:22:21 De Tobias Valentin Linares-1003728 a Todos:
+	O un getelement?
+20:22:57 De Tobias Valentin Linares-1003728 a Todos:
+	O podríamos directamente iterar y hacer un slice del último indice del array?
+20:27:15 De Leandro Lucas Gonzalez-1000178 a Todos:
+	y si agregamos const ultimaTask = this.tasks[this.tasks.length - 1];
+20:27:22 De Mauricio Nicolas Schefer-1003127 a Todos:
+	y con el .length?
+20:27:30 De Mauricio Nicolas Schefer-1003127 a Todos:
+	ah bueno eso
+20:27:38 De Leandro Lucas Gonzalez-1000178 a Todos:
+	antes de eso
+20:27:44 De Leandro Lucas Gonzalez-1000178 a Todos:
+	si
+20:28:00 De Leandro Lucas Gonzalez-1000178 a Todos:
+	si si
+20:29:15 De Leandro Lucas Gonzalez-1000178 a Todos:
+	en taskeElement.texContent
+20:30:38 De Leandro Lucas Gonzalez-1000178 a Todos:
+	taskElement.textContent = `${ultimaTask.text} -- Fecha: ${ultimaTask.date}`;
+20:30:58 De Leandro Lucas Gonzalez-1000178 a Todos:
+	el de abajo
+20:31:48 De Leandro Lucas Gonzalez-1000178 a Todos:
+	probemos
+20:34:00 De Leandro Lucas Gonzalez-1000178 a Todos:
+	ponemos dentro del foreach
+20:35:30 De Leandro Lucas Gonzalez-1000178 a Todos:
+	ósea reemplazamos this.ultimaTask
+20:43:01 De Mauricio Nicolas Schefer-1003127 a Todos:
+	ctrl + ]
+20:43:57 De Mauricio Nicolas Schefer-1003127 a Todos:
+	Por que hace un push arriba y otro abajo
+20:56:53 De Mauricio Nicolas Schefer-1003127 a Todos:
+	al foreach le pasas ultima task
+20:59:34 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	después de agregarla al arr de tareas deberíamos reasignarle ¨*
+20:59:40 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	[]*
+20:59:51 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	como arr vacio
+20:59:59 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	o nel?
+21:00:09 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	tipo para que no se agreguen 2 tareas
+21:00:11 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	solo la ultima
+21:00:41 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	si pero el array ultima task debería ser solo una tarea
+21:03:22 De Instructor :: Gaby a Todos:
+	Volvemos en 10 min.
+21:03:25 De Mauricio Nicolas Schefer-1003127 a Todos:
+	oka
+21:03:26 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	recre opk me estoy durmiendo y ya no enteido
+21:03:28 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	:(((((((((
+21:03:36 De Instructor :: Gaby a Todos:
+	Regresamos 21:15
+21:03:47 De Mauricio Nicolas Schefer-1003127 a Todos:
+	A revivir nuestras mentes
+21:04:05 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	git commit?
+21:04:18 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	mesi pa verlo melhor
+21:04:33 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	diga que no ta terminao
+21:08:55 De Tobias Valentin Linares-1003728 a Todos:
+	Ya descubrí como puede ser creo
+21:18:44 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	q?
+21:42:03 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	this.tasks.length != 0
+21:54:01 De Tobias Valentin Linares-1003728 a Todos:
+	un espectáculo
+22:00:10 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	meter mano
+22:00:17 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	cjhdskfdja
+22:01:16 De Leandro Lucas Gonzalez-1000178 a Todos:
+	trajo cafecito
+22:02:14 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	pudo
+22:02:18 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	areeglar su
+22:02:23 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	repo?
+22:02:38 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	elimine la carpeta ?\?
+22:02:43 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	"\"
+22:02:45 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	dfjksdhfs
+22:02:55 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	jhsdjkfshkfsfs
+22:03:09 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	si lo miran no lo contratan
+22:03:36 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	ashdkadada
+22:03:46 De Leandro Lucas Gonzalez-1000178 a Todos:
+	ok profe .. muchas gracias.. buena clase
+22:04:15 De Mauricio Nicolas Schefer-1003127 a Todos:
+	chau profe buen finde
+22:04:20 De Esteban Daniel Miguel-1003687 a Todos:
+	nos vemos profe el martes
+22:04:20 De Leandro Lucas Gonzalez-1000178 a Todos:
+	buen finde.. nos vemos
+22:04:23 De Esteban Daniel Miguel-1003687 a Todos:
+	buen finde
+22:04:30 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	nos vemos profe
+22:04:32 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	salu3
+22:04:35 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	cuidese
+22:04:45 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	porfe, contente los correos
+22:04:47 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	>:(
+22:04:50 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	sdhasjdhas
+22:04:53 De Lucas Roberto Nunez Viveros-1001798 a Todos:
+	nos vemos
