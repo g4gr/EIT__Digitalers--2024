@@ -1,0 +1,14 @@
+button {
+    all : unset ;
+}
+
+.Action {
+    padding : .5rem 2rem ;
+    border-radius : 2rem ;
+
+    text-transform: uppercase ;
+    font-weight: calc( var( --f_fontWeight ) + 200 );
+
+    background-color: var( --c_white );
+    color : var( --c_black ) ;
+}

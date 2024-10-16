@@ -1,0 +1,16 @@
+.menu {
+    display : flex ;
+    flex-flow: row nowrap ;
+    align-items: center ;
+    justify-content: center ;
+    gap : 2rem ;
+
+    & .menu__item {
+        list-style-type: none ;
+
+        & .menu__item--link {
+            color : var( --c_white ) ;
+            text-decoration: none ;
+        }
+    }
+}

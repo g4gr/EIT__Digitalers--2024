@@ -1,1 +1,4 @@
-.Header {}
+.Header {
+
+    background-color: var( --c_cyan400 );
+}

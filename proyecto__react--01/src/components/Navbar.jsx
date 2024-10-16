@@ -1,7 +1,8 @@
 import React from "react";
 
 import Logo from './Logo' ;
-import NavbarMenu from './NavbarMenu' ;
+import Menu from './Menu' ;
+import HeaderAction from "./HeaderAction";
 
 import './Navbar.css' ;
 
@@ -10,7 +11,8 @@ export default function Navbar ( { children } ){
     return (
         <nav className="Navbar" >
             <Logo />
-            <NavbarMenu />
+            <Menu />
+            <HeaderAction />
 
         </nav>
     )
